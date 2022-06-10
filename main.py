@@ -73,10 +73,9 @@ def play():
 
         if(redo.lower() == 'y'):
             play()
-        elif(redo.lower() != 'y'):
+        elif(redo.lower() == 'n'):
             print('Thank you, for playing!')
-        # else:
-        #     pass
+
 
     play_again()
 
